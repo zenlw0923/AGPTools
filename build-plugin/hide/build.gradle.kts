@@ -33,8 +33,6 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             from(components["java"])
-            groupId = "io.github.zenlw0923"
-            artifactId = "AGPTools"
             version = "1.0.0"
         }
     }
